@@ -3,26 +3,26 @@
 ## A. 
 Grammar Rules for the Language
 - START -> lecture BLOCK
-BLOCK -> { STMT } $END
-STMT -> ASSIGNMENT | LOOPING | EXPR
-ASSIGNMENT -> $ EXPR ;
-LOOPING -> HA_STMT | DURING_STMT
-EXPR -> $$ TERM { ( + | - | = ) TERM }
-TERM -> $$$ FACTOR { ( * | / | % ) FACTOR }
-FACTOR -> id | int_lit | float_int | ( EXPR )
-END -> hahaha
+- BLOCK -> { STMT } $END
+- STMT -> ASSIGNMENT | LOOPING | EXPR
+- ASSIGNMENT -> $ EXPR ;
+- LOOPING -> HA_STMT | DURING_STMT
+- EXPR -> $$ TERM { ( + | - | = ) TERM }
+- TERM -> $$$ FACTOR { ( * | / | % ) FACTOR }
+- FACTOR -> id | int_lit | float_int | ( EXPR )
+- END -> hahaha
 
-HA_STMT -> ha ( BOOL_EXPR ) STMT [ lol STMT ]     
-DURING_STMT -> during ( BOOL_EXPR ) STMT                
+- HA_STMT -> ha ( BOOL_EXPR ) STMT [ lol STMT ]     
+- DURING_STMT -> during ( BOOL_EXPR ) STMT                
 
-BOOL_EXPR -> AND { ehh AND }  
-AND -> EQ { uhh EQ }          
-EQ -> REL { ( == | != ) REL }
-REL -> B_EXPR { ( <= | < | >= | > ) B_EXPR }
-B_EXPR -> B_TERM { ( + | - ) B_TERM }
-B_TERM -> NOT { ( * | / | % ) NOT }
-NOT -> [ ! ]B_FACT
-B_FACT -> id | int_lit | float_int | ( EXPR )
+- BOOL_EXPR -> AND { ehh AND }  
+- AND -> EQ { uhh EQ }          
+- EQ -> REL { ( == | != ) REL }
+- REL -> B_EXPR { ( <= | < | >= | > ) B_EXPR }
+- B_EXPR -> B_TERM { ( + | - ) B_TERM }
+- B_TERM -> NOT { ( * | / | % ) NOT }
+- NOT -> [ ! ]B_FACT
+- B_FACT -> id | int_lit | float_int | ( EXPR )
 
 ## Grammar Syntax Notation:
 START: lecture BLOCK
