@@ -1,0 +1,12 @@
+lecture {
+    $umoja;
+    $$umoja = 100;
+    $lebron;
+    $$lebron = 0;
+    $mettapeace
+    $$mettapeace = 50
+    ha (umoja > lebron) 
+        $$mettapeace = 0;
+    lol 
+        $$mettapeace = 1;
+} hahaha

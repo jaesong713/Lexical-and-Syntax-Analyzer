@@ -1,0 +1,17 @@
+lecture {
+    $bread;
+    $cheese;
+    $ham;
+    $mayo;
+    mustard;
+    $$mayo = 1;
+    during (mayo < 1) 
+        mayo = 2;
+        $$cheese = 1.99;
+        $$bread = .01;
+
+    $heej;
+    $$heej = 1000;
+    $$heej * bread;
+    $$$ham % bread;
+}
