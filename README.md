@@ -1,4 +1,5 @@
 # Lexical-and-Syntax-Analyzer
+### My simple take on a lexical and syntax analyzer for a small language I developed. The code might not be optimal, I would appreciate any input! Thank you.
 
 ## A. 
 ## Grammar Rules for the Language
