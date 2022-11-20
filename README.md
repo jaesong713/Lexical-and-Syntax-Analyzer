@@ -48,13 +48,14 @@
 - B_FACT -> `id` | `int_lit` | `float_int` | `(` EXPR `)`
 
 ## Legend: 
+```
 ha = if in if statement
-lol = else in else statement 
+lol = else in else statement
 during = while in while statement
 ehh = or 
 uhh = and
 \`...\` = (\`) to indicate character literal to detect for each rule
-
+```
 ## B. 
 
 
@@ -85,7 +86,7 @@ This grammar proves to be pairwise disjoint because no first character of each r
 ## D.
 
 ## E.
-Please refer to the java folder and open the lexi.java file \n
+Please refer to the java folder and open the lexi.java file 
 
 
 ## F.
