@@ -1,8 +1,8 @@
 # Lexical-and-Syntax-Analyzer
 
-##A. 
+## A. 
 Grammar Rules for the Language
-START -> lecture BLOCK
+- START -> lecture BLOCK
 BLOCK -> { STMT } $END
 STMT -> ASSIGNMENT | LOOPING | EXPR
 ASSIGNMENT -> $ EXPR ;
@@ -24,7 +24,7 @@ B_TERM -> NOT { ( * | / | % ) NOT }
 NOT -> [ ! ]B_FACT
 B_FACT -> id | int_lit | float_int | ( EXPR )
 
-##Grammar Syntax Notation:
+## Grammar Syntax Notation:
 START: lecture BLOCK
 BLOCK: { STMT } $END
 STMT: ASSIGNMENT | LOOPING | EXPR
@@ -47,7 +47,7 @@ TERM -> NOT { ( `*` | `/` | `%` ) NOT }
 NOT -> [ `!` ]B_FACT
 B_FACT -> `id` | `int_lit` | `float_int` | `(` EXPR `)`
 
-##Legend: 
+## Legend: 
 ha = if in if statement
 lol = else in else statement 
 during = while in while statement
@@ -55,7 +55,7 @@ ehh = or
 uhh = and
 `...` = (`) to indicate character literal to detect for each rule
 
-##B. (15 Points) Define production rules for implementing the mathematical syntax of
+## B. (15 Points) Define production rules for implementing the mathematical syntax of
 operators and operands, loops, variable declaration, selection statements
 • Enforce a non PEMDAS (BODMAS) order of operation, must have at least
 6 levels of precedence
@@ -66,7 +66,7 @@ may lose more points than this problem is worth
 rules
 
 
-##C. 
+## C. 
 FIRST(START) -> {'lecture'}
 FIRST(BLOCK) -> {'{'}
 FIRST(STMT) -> {'$'} | {'HA', 'DURING'} | {'$$'}
@@ -87,23 +87,23 @@ FIRST(B_EXPR) -> {'+', '-'}
 FIRST(B_TERM) -> {'*', '/', '%'}
 FIRST(NOT) -> {'!'}
 
-##Proof for LL Grammar: 
+## Proof for LL Grammar: 
 This grammar proves to be pairwise disjoint because no first character of each rule replicates another.
 
-##D.
+## D.
 
-##E.
+## E.
 Please refer to the java folder and open the 
 
-##F.
+## F.
 Please refer to the java folder and open the rda.java file
 One can test on different documents that I have provided and also, develop his/her own file to test 
 and edit the 
 
-##G.
+## G.
 
 
-##H. 
+## H. 
 Please refer to parseTable.docx
 
 
