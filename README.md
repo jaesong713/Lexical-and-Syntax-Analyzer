@@ -95,12 +95,12 @@ and edit the
 
 ## G. 
 The test files will be in the Java folder as well. The files will be the ones that are named kobe.txt, brisket.txt, sample.txt and hello.txt. 
-'''
-> kobe.txt will be an ideal and correct file
-> brisket.txt will be an ideal and correct file
-> sample.txt will have syntax error(s)
-> hello.txt will have lexical and syntax error(s)
-'''
+```
+kobe.txt will be an ideal and correct file
+brisket.txt will be an ideal and correct file
+sample.txt will have syntax error(s)
+hello.txt will have lexical and syntax error(s)
+```
 
 ## H. 
 Please refer to parseTable.docx
