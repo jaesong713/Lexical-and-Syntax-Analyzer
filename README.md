@@ -86,12 +86,11 @@ This grammar proves to be pairwise disjoint because no first character of each r
 ## D.
 
 ## E.
-Please refer to the java folder and open the lexi.java file 
+Please refer to the java folder and open the lexi.java file and the optimal scenario is to return the corresponding tokens along with the recognized lexeme. One can test on the files within the folder and also develop or write his/her own code to test. The process to test one's own file is to simply create a test file and edit line 13 to link his/her file.
 
 
 ## F.
-Please refer to the java folder and open the rda.java file
-One can test on different documents that I have provided and also, develop his/her own file to test 
+Please refer to the java folder and open the rda.java file. One can test on different documents that I have provided and also, develop his/her own file to test 
 and edit the 
 
 ## G.
