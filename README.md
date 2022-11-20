@@ -93,8 +93,8 @@ Please refer to the java folder and open the lexi.java file and the optimal scen
 Please refer to the java folder and open the rda.java file. One can test on different documents that I have provided and also, develop his/her own file to test 
 and edit the 
 
-## G.
-
+## G. 
+The test files will be in the Java folder as well. The files will be the ones that are named kobe.txt, brisket.txt, sample.txt and hello.txt. 
 
 ## H. 
 Please refer to parseTable.docx
