@@ -1,6 +1,6 @@
 # Lexical-and-Syntax-Analyzer
 
-# A. 
+> A. 
 ## Grammar Rules for the Language
 - START -> lecture BLOCK
 - BLOCK -> { STMT } $END
