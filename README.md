@@ -57,6 +57,7 @@ uhh = and
 `...` = (`) to indicate character literal to detect for each rule
 ```
 ## B. 
+As you can see in the Grammar above Addition and Subtraction will have higher precedence than multiplication, division and modulus. I do have similiarities to if else and while statements but do use different wording for them, furthermore, brackets are not required following those conidition statements.
 
 
 ## C. 
