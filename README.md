@@ -53,31 +53,31 @@ lol = else in else statement
 during = while in while statement
 ehh = or 
 uhh = and
-`...` = (`) to indicate character literal to detect for each rule
+\`...\` = (\`) to indicate character literal to detect for each rule
 
 ## B. 
 
 
 ## C. 
-FIRST(START) -> {'lecture'}
-FIRST(BLOCK) -> {'{'}
-FIRST(STMT) -> {'$'} | {'HA', 'DURING'} | {'$$'}
-FIRST(ASSIGN) -> {'$'}
-FIRST(LOOP) -> {'HA'} | {'DURING'}
-FIRST(EXPR) -> {'$$'}
-FIRST(TERM) -> {'$$$'}
-FIRST(FACTOR) -> {'id'} | {'int_lit'} | {'float_int'} | {'('}
+- FIRST(START) -> {'lecture'}
+- FIRST(BLOCK) -> {'{'}
+- FIRST(STMT) -> {'$'} | {'HA', 'DURING'} | {'$$'}
+- FIRST(ASSIGN) -> {'$'}
+- FIRST(LOOP) -> {'HA'} | {'DURING'}
+- FIRST(EXPR) -> {'$$'}
+- FIRST(TERM) -> {'$$$'}
+- FIRST(FACTOR) -> {'id'} | {'int_lit'} | {'float_int'} | {'('}
 
-FIRST(HA_STMT) -> {'HA'}
-FIRST(DURING_STMT) -> {'DURING'}
+- FIRST(HA_STMT) -> {'HA'}
+- FIRST(DURING_STMT) -> {'DURING'}
 
-FIRST(BOOL) ->  {'('}}
-FIRST(AND) -> {'UHH'}
-FIRST(EQ) ->  {'!=', '=='}
-FIRST(REL) -> {'>=', '>', '<='. '<'}
-FIRST(B_EXPR) -> {'+', '-'}
-FIRST(B_TERM) -> {'*', '/', '%'}
-FIRST(NOT) -> {'!'}
+- FIRST(BOOL) ->  {'('}}
+- FIRST(AND) -> {'UHH'}
+- FIRST(EQ) ->  {'!=', '=='}
+- FIRST(REL) -> {'>=', '>', '<='. '<'}
+- FIRST(B_EXPR) -> {'+', '-'}
+- FIRST(B_TERM) -> {'*', '/', '%'}
+- FIRST(NOT) -> {'!'}
 
 ## Proof for LL Grammar: 
 This grammar proves to be pairwise disjoint because no first character of each rule replicates another.
@@ -85,7 +85,8 @@ This grammar proves to be pairwise disjoint because no first character of each r
 ## D.
 
 ## E.
-Please refer to the java folder and open the 
+Please refer to the java folder and open the lexi.java file \n
+
 
 ## F.
 Please refer to the java folder and open the rda.java file
