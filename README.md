@@ -1,7 +1,7 @@
 # Lexical-and-Syntax-Analyzer
 
-## A. 
-Grammar Rules for the Language
+# A. 
+## Grammar Rules for the Language
 - START -> lecture BLOCK
 - BLOCK -> { STMT } $END
 - STMT -> ASSIGNMENT | LOOPING | EXPR
