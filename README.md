@@ -54,7 +54,7 @@ lol = else in else statement
 during = while in while statement
 ehh = or 
 uhh = and
-\`...\` = (\`) to indicate character literal to detect for each rule
+`...` = (`) to indicate character literal to detect for each rule
 ```
 ## B. 
 
